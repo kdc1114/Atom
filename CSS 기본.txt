@@ -1,0 +1,49 @@
+CSS는 기본적으로 스타일 태그 안에 기용(중괄호사용)(head태그안에사용)
+주고싶은 효과를 누구(전체기준)에게 줄것인지 선택할 선택자역활( a{} )
+, 사용으로 선택자 동시적용가능(h1,a{})
+Decoration color : blue;
+                 (속성)   (값)
+;(세미콜론) = 코드구분용 마침표(구분자)
+<style> ~~ </style> = css언어의 문법에맞게 처리하는 태그
+예시 = <style>
+           a {color:skyblue;}
+          </style>
+=모든 a태그에 폰트에대한 ~~~
+--------------------------------------------------
+글로벌속성(HTML 태그안에 사용가능)
+속성값을 이용한 CSS(style=""은 html의 속성)(style="color:rgb(255,255,255)")
+(속성에대한 약속 = 그 값으로 반드시 CSS의 문법효과를 사용한다)
+<a href="index.html" target="_blank" style="color:blue">WEB</a>
+= style=""이라는 CSS속성값을 사용
+CSS 그리드
+display = 태그의 표시되는 방법을 완전히 바꾸는 속성
+{display: grid;
+grid-template-columns: 150px 1fr; } / 1fr or 2fr ~~ = 화면쓰는크기조정
+--------------------------------------------------
+글로벌속성(id,class,style,title,이벤트처리기(onclick,onfocus)등등
+텍스트 그룹으로묶기(class="saw")(class="active")
+!important; = 절대자 속성
+: = 의사(상태)선택자 / # 을붙이면 id선택자(id="active") /  . 을붙이면 class선택자
+EX) #active:~~{color:blue} / #active{color:blue} / .saw{color:blue}
+선택자 우선순위 = id > class > 태그선택
+id="~~"값 = 단한번만사용 class/태그선택자 = 마지막에 들어갈수록 우선순위↑
+#grid ul{} = 웹페이지에있는 모든 ul중에 부모가 grid인 태그를 선택하는 선택자
+EX) #grid ul / #grid ol / #grid #article 등등
+--------------------------------------------------
+언어 꾸밈코드(같은태그면 내용 한번에입력가능(border:5px solid red;)(순서상관x)
+text-decoration: none;
+<a href="index.html" target="_blank"
+style="color:blue; text-decoration: underline">WEB</a>
+font-size: ~~; (글자크기)
+text-align: ~~; (글자위치)
+CSS 박스모델
+EX)h1{border:5px solid red;
+          ~~~~}
+border-width:~~;(테두리두께)(px/%)
+border-style:~~;(선종류)(solid=단선)
+padding:~~;(테두리내부사이간격)(px/%)
+margin:~~;(테두리와테두리사이간격)(px/%)
+margin:auto;
+width:~~;(테두리폭)(px/%)
+height:~~;(테두리높이)(px/%)
+--------------------------------------------------

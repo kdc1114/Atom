@@ -1,0 +1,23 @@
+CSS미디어쿼리 = 화면의 크기에 따라서 웹페이지의 요소들이 반응하는 반응형디자인
+min or max / screen width >< 800px 
+(min - 최소값 화면의크기가 800px 밑이면 보인다)
+(max - 최대값 화면의크기가 800px 위면 보인다)
+EX)
+      @media(min-width:800px){
+      div{
+         display:none;
+      }
+}
+스크린화면이 800px 보다 클때 display를 none한다
+--------------------------------------------------
+@media(max-width:800px){
+  #grid{
+    display:block;
+  }
+  #grid ol{
+    border-right:none;
+  }
+  h1{
+    border-bottom:none;
+  }
+}
