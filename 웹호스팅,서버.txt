@@ -1,0 +1,24 @@
+웹호스팅 : 웹서버를 열기위한 컴퓨터
+대표적인 무료 웹호스팅 깃허브(github)
+홈페이지 운영할수있는 웹서버 제공
+--------------------------------------------------
+github.com - new repository (저장소) - 
+네임 (public, initialize this repository with a README) - 
+upload files - commit changes (first version - commit changes) 
+-settings 아래 github pages 아래 source master branch
+--------------------------------------------------
+Html 파일 웹페이지로 변경하는법
+비트나미(아파치)웹서버 사용
+로컬C > Bitnami > wampstack > apache2 > htdocs
+위 경로에 만든 Html파일 붙여넣기
+(웹서버 http://127.0.0.1/index.html)
+--------------------------------------------------
+동영상 넣기 = 공유 > 퍼가기 사용시 HTML 태그 내용 붙여넣기
+댓글기능 = Disaqs/LiveRe 홈페이지이용
+Disaqs기준 = 관리자 > Your sites > +New > Universal Code
+                   >1번코드복사 붙여넣기
+(웹서버를 통해서 열어야 사용가능(http://127.0.0.1/index.html))
+--------------------------------------------------
+채팅기능넣기(www.tawk.to)
+관리자(설정) > Widget Code복사 > Html파일에 붙여넣기
+(웹서버를 통해서 열어야 사용가능(http://127.0.0.1/index.html))
